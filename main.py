@@ -44,7 +44,7 @@ with st.container():
     st.write("---")
     st.header("My Projects")
     st.write("##")
-    img_col, text_col = st.columns((1,2))
+    text_col, img_col = st.columns(2)
 
     with img_col:
         st.image("https://asad2010.github.io/porfolio-new/src/img/Screenshot_1.png",use_column_width=True)
@@ -62,7 +62,7 @@ with st.container():
 
 with st.container():
     st.write("##")
-    img_col, text_col = st.columns((1,2))
+    text_col, img_col  = st.columns(2)
 
     with img_col:
         st.image("https://asad2010.github.io/porfolio-new/src/img/Screenshot_2.png",use_column_width=True)
@@ -79,7 +79,7 @@ with st.container():
 
 with st.container():
     st.write("##")
-    img_col, text_col = st.columns((1,2))
+    text_col, img_col = st.columns(2)
 
     with img_col:
         st.image("https://asad2010.github.io/porfolio-new/src/img/Screenshot_3.png",use_column_width=True)
@@ -94,8 +94,9 @@ with st.container():
         )
 
 with st.container():
+    
     st.write("##")
-    img_col, text_col = st.columns((1,2))
+    text_col,img_col = st.columns(2)
 
     with img_col:
         st.image("https://asad2010.github.io/porfolio-new/src/img/Screenshot_4.png",use_column_width=True)
@@ -110,6 +111,8 @@ with st.container():
             """
         )
 with st.container():
+    st.write("---")
+    st.write("##")
     st.header("More Projects You Can Find On My Telegram Channel")
     st.write("[Go To Telegram Channel &rarr;](https://t.me/asad_projects)")
 
